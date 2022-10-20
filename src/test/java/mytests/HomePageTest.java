@@ -26,7 +26,7 @@ public class HomePageTest {
 	public void setup() {
 		
 		cp = new ConfigPropReader();
-		prop =cp.initLangProp("english");
+		prop =cp.initLangProp("french");
 		df =new DriverFactory();
 		driver = df.initDriver("chrome", prop);
 		homepage = new Homepage(driver);

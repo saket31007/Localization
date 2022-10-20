@@ -10,7 +10,7 @@ public class ConfigPropReader {
 	
 	public Properties initLangProp(String language) {
 		
-		System.out.println("language is" + language);
+		System.out.println("language is ->" + language);
 		
 		prop = new Properties();
 		try {
@@ -35,6 +35,8 @@ public class ConfigPropReader {
 		prop.load(ip);
 		}
 		catch(Exception e) {
+			
+			System.out.println("please try with different... " + language);
 			
 		}
 		return prop;

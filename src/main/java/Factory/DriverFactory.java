@@ -14,7 +14,7 @@ public class DriverFactory {
 	
 	public WebDriver initDriver(String browser, Properties prop) {
 		
-		System.out.println("Browser name is : " + browser );
+		System.out.println("Browser name is :  " +  browser );
 		
 		switch (browser.toLowerCase()) {
 		case "chrome":

@@ -2,28 +2,40 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-10-20T22:27:30 IST" name="Default suite" finished-at="2022-10-20T22:27:40 IST" duration-ms="9530">
+  <suite started-at="2022-10-23T23:10:45 IST" name="HomePageSuite" finished-at="2022-10-23T23:10:53 IST" duration-ms="8161">
     <groups>
     </groups>
-    <test started-at="2022-10-20T22:27:30 IST" name="Default test" finished-at="2022-10-20T22:27:40 IST" duration-ms="9530">
+    <test started-at="2022-10-23T23:10:45 IST" name="Test" finished-at="2022-10-23T23:10:53 IST" duration-ms="8161">
       <class name="mytests.HomePageTest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:mytests.HomePageTest@6af93788]" started-at="2022-10-20T22:27:30 IST" name="setup" finished-at="2022-10-20T22:27:39 IST" duration-ms="8883" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String, java.lang.String)[pri:0, instance:mytests.HomePageTest@10e92f8f]" started-at="2022-10-23T23:10:45 IST" name="setup" finished-at="2022-10-23T23:10:53 IST" duration-ms="7703" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[english]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="contactFooterTest()[pri:0, instance:mytests.HomePageTest@6af93788]" started-at="2022-10-20T22:27:39 IST" name="contactFooterTest" finished-at="2022-10-20T22:27:39 IST" duration-ms="142" status="PASS">
+        <test-method signature="contactFooterTest()[pri:0, instance:mytests.HomePageTest@10e92f8f]" started-at="2022-10-23T23:10:53 IST" name="contactFooterTest" finished-at="2022-10-23T23:10:53 IST" duration-ms="138" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- contactFooterTest -->
-        <test-method signature="headerTest()[pri:0, instance:mytests.HomePageTest@6af93788]" started-at="2022-10-20T22:27:39 IST" name="headerTest" finished-at="2022-10-20T22:27:39 IST" duration-ms="145" status="PASS">
+        <test-method signature="headerTest()[pri:0, instance:mytests.HomePageTest@10e92f8f]" started-at="2022-10-23T23:10:53 IST" name="headerTest" finished-at="2022-10-23T23:10:53 IST" duration-ms="99" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- headerTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.HomePageTest@6af93788]" started-at="2022-10-20T22:27:39 IST" name="tearDown" finished-at="2022-10-20T22:27:40 IST" duration-ms="295" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:mytests.HomePageTest@10e92f8f]" started-at="2022-10-23T23:10:53 IST" name="tearDown" finished-at="2022-10-23T23:10:53 IST" duration-ms="161" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
       </class> <!-- mytests.HomePageTest -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+    </test> <!-- Test -->
+  </suite> <!-- HomePageSuite -->
 </testng-results>

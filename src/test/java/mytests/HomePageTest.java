@@ -7,7 +7,10 @@ import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
+
+
 
 import ConfigReader.ConfigPropReader;
 import Factory.DriverFactory;
@@ -22,17 +25,19 @@ public class HomePageTest {
 	WebDriver driver;
 	Homepage homepage;
 	
+	
 	@BeforeTest
-	public void setup() {
+	@Parameters({"lang" , "browser"})
+	
+	
+	
+	public void setup(String lang, String browser) {
 		
 		cp = new ConfigPropReader();
-		prop =cp.initLangProp("french");
+		prop =cp.initLangProp(lang);
 		df =new DriverFactory();
-		driver = df.initDriver("chrome", prop);
-		homepage = new Homepage(driver);
-		
-	
-		
+		driver = df.initDriver( browser , prop);
+		homepage = new Homepage(driver);	
 	}
 	
 	

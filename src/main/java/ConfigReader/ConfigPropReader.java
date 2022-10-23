@@ -8,6 +8,7 @@ public class ConfigPropReader {
 	private Properties prop;
 	private FileInputStream ip;
 	
+	
 	public Properties initLangProp(String language) {
 		
 		System.out.println("language is ->" + language);
